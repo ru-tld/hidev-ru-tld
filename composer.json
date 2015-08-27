@@ -1,0 +1,31 @@
+{
+    "name": "ru-tld/hidev-config",
+    "type": "yii2-extension",
+    "description": "RU-TLD general hidev config",
+    "keywords": [
+        "ru-tld",
+        "hidev",
+        "config"
+    ],
+    "homepage": "https://github.com/ru-tld/hidev-config",
+    "license": "No license",
+    "support": {
+        "email": "support@ru-tld.com",
+        "source": "https://github.com/ru-tld/hidev-config",
+        "issues": "https://github.com/ru-tld/hidev-config/issues",
+        "wiki": "https://github.com/ru-tld/hidev-config/wiki",
+        "forum": "https://ru-tld.ru/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "email": "sol@hiqdev.com",
+            "homepage": "https://hipanel.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rutld\\hidev\\config\\": "src"
+        }
+    }
+}

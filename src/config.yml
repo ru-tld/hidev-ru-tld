@@ -1,0 +1,10 @@
+vendor:
+    name:       ru-tld
+    title:      RU-TLD
+    homepage:   https://ru-tld.ru/
+    forum:      https://ru-tld.ru/
+    email:      support@ru-tld.ru
+    authors:
+        'Andrii Vasyliev':
+            email:      sol@hiqdev.com
+            homepage:   https://hipanel.com/

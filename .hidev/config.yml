@@ -1,0 +1,14 @@
+package:
+    name:           hidev-config
+    namespace:      rutld\hidev\config
+    label:          RuTldConfig
+    title:          RU-TLD general hidev config
+    type:           yii2-extension
+    keywords:       ru-tld, hidev, config
+    year:           2015
+
+require:
+    hiqdev/hidev-config-php:    "*"
+
+include:
+    - src/config.yml
