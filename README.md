@@ -12,15 +12,14 @@ HiDev RU-TLD
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 
-This plugin provides [HiQDev](https://github.com/hiqdev) vendor configuration for HiDev.
-Used for HiQDev packages. Can be used as template for configs of other vendors.
+This plugin provides [RU-TLD](https://github.com/ru-tld) vendor configuration for HiDev.
+Used for RU-TLD packages.
 
 Provides RU-TLD information and settings:
 
 - general data: vendor name and company title
 - contact data: email, forum, github page
 - authors data: names, roles, emails, github and home pages
-- default license: BSD-3-Clause
 
 See [src/config/goals.yml](src/config/goals.yml).
 
