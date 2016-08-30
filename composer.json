@@ -1,31 +1,40 @@
 {
-    "name": "ru-tld/hidev-config",
+    "name": "ru-tld/hidev-ru-tld",
     "type": "yii2-extension",
-    "description": "RU-TLD general hidev config",
+    "description": "RU-TLD vendor configuration for HiDev",
     "keywords": [
         "ru-tld",
         "hidev",
+        "vendor",
         "config"
     ],
-    "homepage": "https://github.com/ru-tld/hidev-config",
+    "homepage": "https://github.com/ru-tld/hidev-ru-tld",
     "license": "No license",
     "support": {
         "email": "support@ru-tld.com",
-        "source": "https://github.com/ru-tld/hidev-config",
-        "issues": "https://github.com/ru-tld/hidev-config/issues",
-        "wiki": "https://github.com/ru-tld/hidev-config/wiki",
+        "source": "https://github.com/ru-tld/hidev-ru-tld",
+        "issues": "https://github.com/ru-tld/hidev-ru-tld/issues",
+        "wiki": "https://github.com/ru-tld/hidev-ru-tld/wiki",
         "forum": "https://ru-tld.ru/"
     },
     "authors": [
         {
             "name": "Andrii Vasyliev",
+            "role": "Project lead",
             "email": "sol@hiqdev.com",
-            "homepage": "https://hipanel.com/"
+            "homepage": "http://hipanel.com/"
         }
     ],
+    "require": {
+        "hiqdev/composer-config-plugin": "<2.0"
+    },
+    "require-dev": {
+        "hiqdev/hidev": "<2.0",
+        "hiqdev/hidev-php": "<2.0"
+    },
     "autoload": {
         "psr-4": {
-            "rutld\\hidev\\config\\": "src"
+            "rutld\\hidev\\rutld\\": "src"
         }
     }
 }

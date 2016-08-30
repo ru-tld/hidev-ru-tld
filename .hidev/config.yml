@@ -1,14 +1,25 @@
 package:
-    name:           hidev-config
-    namespace:      rutld\hidev\config
-    label:          RuTldConfig
-    title:          RU-TLD general hidev config
     type:           yii2-extension
-    keywords:       ru-tld, hidev, config
-    year:           2015
+    name:           hidev-ru-tld
+    title:          RU-TLD vendor configuration for HiDev
+    headline:       HiDev RU-TLD
+    keywords:       ru-tld, hidev, vendor, config
+    namespace:      rutld\hidev\rutld
+    description:    |
+        [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 
-require:
-    hiqdev/hidev-config-php:    "*"
+        This plugin provides [HiQDev](https://github.com/hiqdev) vendor configuration for HiDev.
+        Used for HiQDev packages. Can be used as template for configs of other vendors.
+
+        Provides RU-TLD information and settings:
+
+        - general data: vendor name and company title
+        - contact data: email, forum, github page
+        - authors data: names, roles, emails, github and home pages
+        - default license: BSD-3-Clause
+
+        See [src/config/goals.yml](src/config/goals.yml).
+
 
 include:
-    - src/config.yml
+    - src/config/goals.yml

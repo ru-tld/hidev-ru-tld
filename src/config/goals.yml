@@ -5,6 +5,9 @@ vendor:
     forum:      https://ru-tld.ru/
     email:      support@ru-tld.ru
     authors:
-        'Andrii Vasyliev':
+        hiqsol:
+            name:       Andrii Vasyliev
+            role:       Project lead
             email:      sol@hiqdev.com
-            homepage:   https://hipanel.com/
+            github:     https://github.com/hiqsol
+            homepage:   http://hipanel.com/
