@@ -36,5 +36,16 @@
         "psr-4": {
             "rutld\\hidev\\rutld\\": "src"
         }
-    }
+    },
+    "extra": {
+        "config-plugin": {
+            "hidev": "src/config/hidev.php"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }
