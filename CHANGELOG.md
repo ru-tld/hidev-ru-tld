@@ -1,7 +1,7 @@
 ru-tld/hidev-ru-tld
 -------------------
 
-## [Under development]
+## [0.1.0] - 2016-08-30
 
 - Changed: redone to `hidev-ru-tld`
 
