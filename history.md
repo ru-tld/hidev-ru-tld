@@ -1,7 +1,12 @@
 ru-tld/hidev-ru-tld
 -------------------
 
-## [0.1.0] - 2016-08-30
+## [0.1.1] - 2016-09-13
+
+- Fixed require constraint for composer-config-plugin
+    - [45c6a30] 2016-09-13 fixed require constraint for composer-config-plugin [sol@hiqdev.com]
+
+## [0.1.0] - 2016-08-31
 
 - Changed: redone to `hidev-ru-tld`
     - [2fae894] 2016-08-30 removed Plugin.php [sol@hiqdev.com]
@@ -21,3 +26,4 @@ ru-tld/hidev-ru-tld
 [2c1f152]: https://github.com/ru-tld/hidev-ru-tld/commit/2c1f152
 [2fae894]: https://github.com/ru-tld/hidev-ru-tld/commit/2fae894
 [e737a39]: https://github.com/ru-tld/hidev-ru-tld/commit/e737a39
+[45c6a30]: https://github.com/ru-tld/hidev-ru-tld/commit/45c6a30
