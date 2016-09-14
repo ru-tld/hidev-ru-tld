@@ -11,3 +11,19 @@ vendor:
             email:      sol@hiqdev.com
             github:     https://github.com/hiqsol
             homepage:   http://hipanel.com/
+
+php-cs-fixer:
+    header: |
+        {{ config.package.title }}
+
+        @link      {{ config.package.homepage }}
+        @package   {{ config.package.name }}
+        @license   {{ config.package.license }}
+        @copyright Copyright (c) {{ config.package.years }}, {{ config.vendor.titleAndHomepage }}
+    fixers:
+        'header_comment':   'Add, replace or remove header comment.'
+    finder:
+        notPath:
+            - vendor
+            - runtime
+            - web/assets
