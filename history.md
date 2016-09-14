@@ -1,6 +1,11 @@
 ru-tld/hidev-ru-tld
 -------------------
 
+## [0.1.2] - 2016-09-14
+
+- Added php-cs-fixer config
+    - [e0e7181] 2016-09-14 added php-cs-fixed config [sol@hiqdev.com]
+
 ## [0.1.1] - 2016-09-13
 
 - Fixed require constraint for composer-config-plugin
@@ -27,3 +32,4 @@ ru-tld/hidev-ru-tld
 [2fae894]: https://github.com/ru-tld/hidev-ru-tld/commit/2fae894
 [e737a39]: https://github.com/ru-tld/hidev-ru-tld/commit/e737a39
 [45c6a30]: https://github.com/ru-tld/hidev-ru-tld/commit/45c6a30
+[e0e7181]: https://github.com/ru-tld/hidev-ru-tld/commit/e0e7181
