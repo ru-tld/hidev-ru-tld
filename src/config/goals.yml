@@ -21,7 +21,13 @@ php-cs-fixer:
         @license   {{ config.package.license }}
         @copyright Copyright (c) {{ config.package.years }}, {{ config.vendor.titleAndHomepage }}
     fixers:
-        'header_comment':   'Add, replace or remove header comment.'
+        header_comment: | # Add, replace or remove header comment
+            [
+                'header'        => $header,
+                'separate'      => 'bottom',
+                'location'      => 'after_declare_strict',
+                'commentType'   => 'PHPDoc',
+            ]
     finder:
         notPath:
             - vendor
