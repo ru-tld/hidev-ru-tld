@@ -12,7 +12,7 @@ vendor:
             github:     https://github.com/hiqsol
             homepage:   http://hipanel.com/
 
-php-cs-fixer:
+.php_cs:
     header: |
         {{ config.package.title }}
 

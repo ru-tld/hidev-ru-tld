@@ -1,5 +1,4 @@
-HiDev RU-TLD
-============
+# HiDev RU-TLD
 
 **RU-TLD vendor configuration for HiDev**
 
@@ -46,4 +45,4 @@ to the require section of your composer.json.
 This project is released under the terms of the No license [license](LICENSE).
 Read more [here](http://choosealicense.com/licenses/no-license).
 
-Copyright © 2015-2016, RU-TLD (https://ru-tld.ru/)
+Copyright © 2015-2017, RU-TLD (https://ru-tld.ru/)

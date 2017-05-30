@@ -29,7 +29,6 @@
         "hiqdev/composer-config-plugin": "<2.0 || dev-master"
     },
     "require-dev": {
-        "hiqdev/hidev": "<2.0",
         "hiqdev/hidev-php": "<2.0"
     },
     "autoload": {
