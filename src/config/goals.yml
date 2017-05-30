@@ -4,6 +4,7 @@ vendor:
     homepage:   https://ru-tld.ru/
     forum:      https://ru-tld.ru/
     email:      support@ru-tld.ru
+    license:    proprietary
     authors:
         hiqsol:
             name:       Andrii Vasyliev

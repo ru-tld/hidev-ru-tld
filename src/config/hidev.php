@@ -4,7 +4,7 @@
  *
  * @link      https://github.com/ru-tld/hidev-ru-tld
  * @package   hidev-ru-tld
- * @license   No license
+ * @license   proprietary
  * @copyright Copyright (c) 2015-2017, RU-TLD (https://ru-tld.ru/)
  */
 
