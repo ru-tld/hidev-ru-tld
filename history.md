@@ -1,6 +1,15 @@
 ru-tld/hidev-ru-tld
 -------------------
 
+## [0.1.3] - 2021-06-14
+
+- Switch to Yiisoft/c-c-p
+    - [215f4ac] 2021-06-14 Switch to Yiisoft/c-c-p [d.naumenko.a@gmail.com]
+    - [3362733] 2017-05-30 changed to proprietary license [sol@hiqdev.com]
+    - [3da4bed] 2017-05-30 csfixed [sol@hiqdev.com]
+    - [cd48129] 2017-05-30 renamed `hidev.yml` [sol@hiqdev.com]
+    - [31495ce] 2016-12-26 fixed php-cs-fixer config [sol@hiqdev.com]
+
 ## [0.1.2] - 2016-09-14
 
 - Added php-cs-fixer config
@@ -33,3 +42,14 @@ ru-tld/hidev-ru-tld
 [e737a39]: https://github.com/ru-tld/hidev-ru-tld/commit/e737a39
 [45c6a30]: https://github.com/ru-tld/hidev-ru-tld/commit/45c6a30
 [e0e7181]: https://github.com/ru-tld/hidev-ru-tld/commit/e0e7181
+[215f4ac]: https://github.com/ru-tld/hidev-ru-tld/commit/215f4ac
+[3362733]: https://github.com/ru-tld/hidev-ru-tld/commit/3362733
+[3da4bed]: https://github.com/ru-tld/hidev-ru-tld/commit/3da4bed
+[cd48129]: https://github.com/ru-tld/hidev-ru-tld/commit/cd48129
+[31495ce]: https://github.com/ru-tld/hidev-ru-tld/commit/31495ce
+[Under development]: https://github.com/ru-tld/hidev-ru-tld/compare/0.1.2...HEAD
+[0.1.2]: https://github.com/ru-tld/hidev-ru-tld/compare/0.1.1...0.1.2
+[0.1.1]: https://github.com/ru-tld/hidev-ru-tld/compare/0.1.0...0.1.1
+[0.1.0]: https://github.com/ru-tld/hidev-ru-tld/compare/0.0.1...0.1.0
+[0.0.1]: https://github.com/ru-tld/hidev-ru-tld/releases/tag/0.0.1
+[0.1.3]: https://github.com/ru-tld/hidev-ru-tld/compare/0.1.2...0.1.3
