@@ -26,7 +26,7 @@
         }
     ],
     "require": {
-        "hiqdev/composer-config-plugin": "<2.0 || dev-master"
+        "yiisoft/composer-config-plugin": "dev-master"
     },
     "require-dev": {
         "hiqdev/hidev-php": "<2.0"
@@ -46,5 +46,6 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
